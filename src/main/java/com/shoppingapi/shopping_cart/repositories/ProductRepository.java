@@ -11,7 +11,7 @@ import java.util.List;
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
    @EntityGraph(attributePaths = "category")
-   public List<Product> findByCategoryId(Byte categoryId);
+    List<Product> findByCategoryId(Byte categoryId);
 
    @EntityGraph(attributePaths = "category")
    @Query("SELECT p from Product p")
