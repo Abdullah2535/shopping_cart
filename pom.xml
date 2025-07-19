@@ -95,7 +95,6 @@
                 <configuration>
                     <url>jdbc:mysql://localhost:3307/store_2?createDatabaseIfNotExist=true</url>
                     <user>root</user>
-                    <password>Hunter_25_36</password>
                     <cleanDisabled>false</cleanDisabled>
                 </configuration>
             </plugin>
