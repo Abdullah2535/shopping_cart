@@ -1,2 +1,2 @@
-#alter table carts
-    #change dateCreated date_created date default (curdate()) not null;
+alter table carts
+    change dateCreated date_created date default (curdate()) not null;

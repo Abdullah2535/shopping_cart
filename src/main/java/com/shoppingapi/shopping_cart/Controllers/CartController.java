@@ -10,6 +10,7 @@ import com.shoppingapi.shopping_cart.dto.UpdateCartItemRequest;
 import com.shoppingapi.shopping_cart.exceptions.CartNotFoundException;
 import com.shoppingapi.shopping_cart.exceptions.ProductNotFoundException;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -23,6 +24,7 @@ import java.util.UUID;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/cart")
+@Tag(name = "carts")
 public class CartController {
 
     private final CartService cartService;
