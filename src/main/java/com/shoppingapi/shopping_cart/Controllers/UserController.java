@@ -2,6 +2,7 @@ package com.shoppingapi.shopping_cart.Controllers;
 
 
 import com.shoppingapi.shopping_cart.dto.*;
+import com.shoppingapi.shopping_cart.entities.Role;
 import com.shoppingapi.shopping_cart.mappers.UserMapper;
 import com.shoppingapi.shopping_cart.repositories.UserRepository;
 import jakarta.validation.Valid;
@@ -61,6 +62,7 @@ public class UserController {
 
         var user = userMapper.toEntity(request);
         user.setPassword(passwordEncoder.encode(user.getPassword()));
+        user.setRole(Role.USER);
         userRepository.save(user);
 
         var uri   =uriBuilder.path("/users/{id}").buildAndExpand(user.getId()).toUri();
