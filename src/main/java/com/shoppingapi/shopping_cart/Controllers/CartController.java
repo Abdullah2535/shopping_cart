@@ -44,7 +44,6 @@ public class CartController {
     }
    @GetMapping("/{id}")
     public CartDto getCart(@PathVariable UUID id) {
-
        return cartService.getCart(id);
 
    }
