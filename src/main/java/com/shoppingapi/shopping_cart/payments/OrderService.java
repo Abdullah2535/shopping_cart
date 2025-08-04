@@ -1,13 +1,12 @@
-package com.shoppingapi.shopping_cart.Services;
+package com.shoppingapi.shopping_cart.payments;
 
-import com.shoppingapi.shopping_cart.dto.CheckoutRequest;
-import com.shoppingapi.shopping_cart.dto.CheckoutResponse;
+import com.shoppingapi.shopping_cart.Services.AuthService;
+import com.shoppingapi.shopping_cart.Services.CartService;
 import com.shoppingapi.shopping_cart.dto.OrderDto;
 import com.shoppingapi.shopping_cart.entities.Order;
 import com.shoppingapi.shopping_cart.exceptions.CartEmptyException;
 import com.shoppingapi.shopping_cart.exceptions.CartNotFoundException;
 import com.shoppingapi.shopping_cart.exceptions.OrderNotFoundException;
-import com.shoppingapi.shopping_cart.exceptions.PaymentException;
 import com.shoppingapi.shopping_cart.repositories.CartRepository;
 import com.shoppingapi.shopping_cart.repositories.OrdersRepository;
 

@@ -1,4 +1,4 @@
-package com.shoppingapi.shopping_cart.Services;
+package com.shoppingapi.shopping_cart.payments;
 
 import com.shoppingapi.shopping_cart.entities.PaymentStatus;
 import lombok.AllArgsConstructor;

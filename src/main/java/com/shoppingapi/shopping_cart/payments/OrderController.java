@@ -1,15 +1,11 @@
-package com.shoppingapi.shopping_cart.Controllers;
+package com.shoppingapi.shopping_cart.payments;
 
 
-import com.shoppingapi.shopping_cart.Services.OrderService;
-import com.shoppingapi.shopping_cart.Services.WebhookRequest;
-import com.shoppingapi.shopping_cart.dto.CheckoutRequest;
 import com.shoppingapi.shopping_cart.dto.ErrorDto;
 import com.shoppingapi.shopping_cart.dto.OrderDto;
 import com.shoppingapi.shopping_cart.exceptions.CartEmptyException;
 import com.shoppingapi.shopping_cart.exceptions.CartNotFoundException;
 import com.shoppingapi.shopping_cart.exceptions.OrderNotFoundException;
-import com.shoppingapi.shopping_cart.exceptions.PaymentException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

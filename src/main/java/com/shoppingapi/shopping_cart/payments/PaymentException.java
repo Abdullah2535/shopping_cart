@@ -1,4 +1,4 @@
-package com.shoppingapi.shopping_cart.exceptions;
+package com.shoppingapi.shopping_cart.payments;
 
 
 import lombok.NoArgsConstructor;

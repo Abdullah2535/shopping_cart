@@ -1,9 +1,8 @@
-package com.shoppingapi.shopping_cart.Services;
+package com.shoppingapi.shopping_cart.payments;
 
 import com.shoppingapi.shopping_cart.entities.Order;
 import com.shoppingapi.shopping_cart.entities.OrderItem;
 import com.shoppingapi.shopping_cart.entities.PaymentStatus;
-import com.shoppingapi.shopping_cart.exceptions.PaymentException;
 import com.stripe.exception.SignatureVerificationException;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Event;

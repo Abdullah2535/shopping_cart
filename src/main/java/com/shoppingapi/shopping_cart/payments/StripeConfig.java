@@ -1,4 +1,4 @@
-package com.shoppingapi.shopping_cart.cofig;
+package com.shoppingapi.shopping_cart.payments;
 
 import com.stripe.Stripe;
 import jakarta.annotation.PostConstruct;

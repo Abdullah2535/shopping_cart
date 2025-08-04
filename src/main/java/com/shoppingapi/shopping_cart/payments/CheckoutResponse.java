@@ -1,4 +1,4 @@
-package com.shoppingapi.shopping_cart.dto;
+package com.shoppingapi.shopping_cart.payments;
 
 import lombok.Getter;
 import lombok.Setter;
