@@ -40,19 +40,32 @@ Project Structure
 
 shopping_cart/
 │── src/main/java/com/shoppingcart
+
 │ ├── config # Security and application configuration
+
 │ ├── controller # REST controllers
+
 │ ├── dto # Data Transfer Objects
+
 │ ├── entity # JPA entities
+
 │ ├── exception # Exception handling classes
+
 │ ├── repository # Spring Data repositories
+
 │ ├── security # JWT and authentication logic
+
 │ ├── service # Business services
+
 │ └── ShoppingCartApplication.java
+
 │
 │── src/main/resources
+
 │ ├── application.yml # Application configuration
+
 │ └── db/migration # Flyway migration scripts
+
 │
 └── pom.xmshopping_cart/
 
