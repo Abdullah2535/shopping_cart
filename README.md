@@ -67,5 +67,5 @@ shopping_cart/
 │ └── db/migration # Flyway migration scripts
 
 │
-└── pom.xmshopping_cart/
+└── pom.xml
 
